@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlayerNameSelection">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginBottom="@dimen/botomMargin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/playerOne" />
+
+                <EditText
+                    android:id="@+id/player1Name_editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="X"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/playerTwo" />
+
+                <EditText
+                    android:id="@+id/player2Name_editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="O"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="play_OnClick"
+            android:text="@string/playButton" />
+
+        <Button
+            android:id="@+id/easterEgg_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="computerVsComputer_OnClick"
+            android:text="@string/computerVsComputer"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="2"
+            android:contentDescription="Tic-Tac-Toe_footerDeco"
+            app:srcCompat="@drawable/tictactoe_deco" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

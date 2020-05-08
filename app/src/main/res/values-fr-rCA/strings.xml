@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playerOne">Joueur 1</string>
+    <string name="playerTwo">Joueur 2</string>
+    <string name="turn">Tour de</string>
+    <string name="winner">"Gagnant"</string>
+    <string name="noWinner">Pas de gagnant</string>
+    <string name="tie">Partie nulle</string>
+    <string name="twoPlayerButton">Deux joueur</string>
+    <string name="onePlayerButton">Un joueur</string>
+    <string name="aboutButton">À propos</string>
+    <string name="quitButton">Quitter</string>
+    <string name="playButton">Jouer</string>
+    <string name="menuButton">Menu</string>
+    <string name="resetButton">Reset</string>
+    <string name="BackButton">Retour</string>
+    <string name="aboutText">Tic-Tac-Toe\nv0.3.0\n\nPar Alexandre Thibessart</string>
+</resources>

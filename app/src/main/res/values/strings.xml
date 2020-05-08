@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Tic-Tac-Toe</string>
+    <string name="gameTitle" translatable="false">Tic-Tac-Toe</string>
+    <string name="player">Player</string>
+    <string name="computer">Computer</string>
+    <string name="playerOne">Player 1</string>
+    <string name="playerTwo">Player 2</string>
+    <string name="turn">Turn</string>
+    <string name="winner">Winner</string>
+    <string name="noWinner">No Winner</string>
+    <string name="tie">Tie</string>
+    <string name="aboutText">Tic-Tac-Toe\nv0.3.0\n\nBy Alexandre Thibessart</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="returnToMainMenuMsg">Are you sure you want to return to the main menu?</string>
+    <string name="newGame">New Game</string>
+    <string name="easterEggUnlocked">Computer vs Computer unlocked</string>
+    <string name="computerVsComputer">Computer vs Computer</string>
+
+    <!-- B U T T O N S -->
+    <string name="twoPlayerButton">Two Player</string>
+    <string name="onePlayerButton">One Player</string>
+    <string name="quitButton">Quit</string>
+    <string name="playButton">Play</string>
+    <string name="menuButton">Menu</string>
+    <string name="resetButton">Reset</string>
+    <string name="aboutButton">About</string>
+    <string name="BackButton">Back</string>
+</resources>

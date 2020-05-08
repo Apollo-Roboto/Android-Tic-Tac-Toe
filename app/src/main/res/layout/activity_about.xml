@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/leftRightMargin"
+        android:layout_marginRight="@dimen/leftRightMargin"
+        android:layout_marginBottom="@dimen/botomMargin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:onClick="easterEgg_OnClick"
+            android:text="@string/aboutText"
+            android:textColor="#9A9A9A"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="back_OnClick"
+            android:text="@string/BackButton"
+            tools:text="@string/BackButton" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/tictactoe_deco" />
+    </LinearLayout>
+</RelativeLayout>

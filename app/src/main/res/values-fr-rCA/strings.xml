@@ -15,4 +15,12 @@
     <string name="resetButton">Reset</string>
     <string name="BackButton">Retour</string>
     <string name="aboutText">Tic-Tac-Toe\nv0.3.0\n\nPar Alexandre Thibessart</string>
+    <string name="player">Joueur</string>
+    <string name="computer">Ordinateur</string>
+    <string name="yes">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string name="returnToMainMenuMsg">Êtes-vous sûre de retourner au menu principale?</string>
+    <string name="newGame">Nouvelle partie</string>
+    <string name="easterEggUnlocked">Ordinateur vs Ordinateur débloqué</string>
+    <string name="computerVsComputer">Ordinateur vs Ordinateur</string>
 </resources>
